@@ -1,0 +1,89 @@
+*
+{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+.main
+{
+  background-image: url('./img/background-wallpaper-material-light-light-light-shine-shine-bright-shine-gorgeous-copy-spac_941265-10573.jpg');
+  /* image-rendering: auto; */
+  /* background-repeat: no-repeat; */
+  /* background-position: top; */
+  /* background-color: burlywood; */
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container
+{
+  /* margin-top: 30px; */
+  background-color: #fff;
+  border-radius: 5px;
+  width: 400px;
+  height: 600px;
+  padding: 15px;
+}
+h2
+{
+  margin-top: 50px;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  margin-bottom: 15px;
+}
+.input-group
+{
+  display: flex;
+  margin-bottom: 15px;
+  /* border-color: antiquewhite; */
+
+}
+#text-input-field
+{
+  width: 100%;
+  padding: 10px;
+  font-size: 25px;
+  font-weight:500 ;
+  letter-spacing:2px;
+  /* border-color: burlywood; */
+  border: 2px solid burlywood;
+}
+#add-button
+{
+  padding: 7px 9px;
+  border: none;
+  background-color: cyan;
+}
+
+.todos-container
+{
+  overflow-y: scroll;
+}
+.todo-item-container
+{
+  display: flex;
+  margin-bottom: 5px;
+}
+#todo-text
+{
+  width: 100%;
+  font-size: 20px;
+  letter-spacing: 1.5px;
+  user-select: none;
+}
+
+/* add this class whenever we click paragraph in js */
+.line-through
+{
+  text-decoration: line-through;
+  /* when we double click we get automatically selected color */
+  color: blue;
+}
+#edit-button,#delete-button
+{
+  padding: 5px;
+  border: none;
+  background-color: transparent;
+}
